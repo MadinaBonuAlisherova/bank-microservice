@@ -1,0 +1,17 @@
+
+group 'com.madinabonu'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation libpacks.postgres
+    implementation libpacks.cloud
+    implementation libpacks.test
+}
+
+test {
+    useJUnitPlatform()
+}

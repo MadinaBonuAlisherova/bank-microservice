@@ -1,0 +1,34 @@
+version: '2.7'
+
+services:
+  postgres:
+    image: postgres:13.2-alpine
+    container_name: postgres
+    restart: on-failure
+    ports:
+      - "5435:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - aplication_postgres_data:/var/lib/postgresql/data
+
+  postgres1:
+    image: postgres:13.2-alpine
+    container_name: postgres1
+    restart: on-failure
+    ports:
+      - "5436:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - aplication_postgres_data1:/var/lib/postgresql/data
+
+volumes:
+  aplication_postgres_data:
+    driver: local
+  aplication_postgres_data1:
+    driver: local

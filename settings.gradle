@@ -1,0 +1,12 @@
+rootProject.name = 'online-banking'
+include 'online-banking-api-gateway'
+include 'online-banking-config-server'
+include 'online-banking-fund-transfer-service'
+include 'online-banking-service-registery'
+include 'online-banking-user-service'
+include 'online-banking-payment-service'
+include 'online-banking-core-service'
+include 'core-banking-service'
+include 'Banking-service-module'
+include 'common'
+
