@@ -1,17 +1,17 @@
 package com.javatech.finance.service;
 
 
-import com.javatech.finance.enums.TransactionType;
+import com.javatech.finance.common.enums.TransactionType;
+import com.javatech.finance.common.model.dto.BankAccount;
+import com.javatech.finance.common.model.dto.UtilityAccount;
+import com.javatech.finance.common.model.dto.request.FundTransferRequest;
+import com.javatech.finance.common.model.dto.request.UtilityPaymentRequest;
+import com.javatech.finance.common.model.dto.response.FundTransferResponse;
+import com.javatech.finance.common.model.dto.response.UtilityPaymentResponse;
+import com.javatech.finance.common.model.entity.BankAccountEntity;
+import com.javatech.finance.common.model.entity.TransactionEntity;
 import com.javatech.finance.exceptions.GlobalErrorCode;
 import com.javatech.finance.exceptions.InsufficientFundsException;
-import com.javatech.finance.model.dto.BankAccount;
-import com.javatech.finance.model.dto.UtilityAccount;
-import com.javatech.finance.model.dto.request.FundTransferRequest;
-import com.javatech.finance.model.dto.request.UtilityPaymentRequest;
-import com.javatech.finance.model.dto.response.FundTransferResponse;
-import com.javatech.finance.model.dto.response.UtilityPaymentResponse;
-import com.javatech.finance.model.entity.BankAccountEntity;
-import com.javatech.finance.model.entity.TransactionEntity;
 import com.javatech.finance.repository.BankAccountRepository;
 import com.javatech.finance.repository.TransactionRepository;
 import lombok.RequiredArgsConstructor;

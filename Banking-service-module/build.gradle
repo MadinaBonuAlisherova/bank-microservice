@@ -20,11 +20,13 @@ repositories {
 dependencies {
 
 
-    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
-    implementation 'android.arch.persistence.room:runtime:1.1.1'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
+//    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
+//    implementation 'android.arch.persistence.room:runtime:1.1.1'
+//    implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation libpacks.postgres
     implementation project(':common')
+    implementation  'org.springframework.cloud:spring-cloud-starter-openfeign'
+    implementation  'org.springframework.kafka:spring-kafka'
 
 //    implementation project(':online-banking-api-gateway')
 //    implementation libpacks.cloud

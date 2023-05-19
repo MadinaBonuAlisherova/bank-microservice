@@ -1,9 +1,9 @@
 package com.javatech.finance.service;
 
+import com.javatech.finance.common.model.dto.User;
+import com.javatech.finance.common.model.entity.UserEntity;
+import com.javatech.finance.common.model.mapper.UserMapper;
 import com.javatech.finance.exceptions.EntityNotFoundException;
-import com.javatech.finance.model.dto.User;
-import com.javatech.finance.model.entity.UserEntity;
-import com.javatech.finance.model.mapper.UserMapper;
 import com.javatech.finance.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;

@@ -1,7 +1,7 @@
 package com.javatech.finance.controller;
 
-import com.javatech.finance.model.dto.request.FundTransferRequest;
-import com.javatech.finance.model.dto.request.UtilityPaymentRequest;
+import com.javatech.finance.common.model.dto.request.FundTransferRequest;
+import com.javatech.finance.common.model.dto.request.UtilityPaymentRequest;
 import com.javatech.finance.service.TransactionService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -10,12 +10,6 @@ spring:
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
-  datasource2:
-    postgres2:
-      url: jdbc:postgresql://localhost:5435/postgres
-      username: postgres
-      password: postgres
-      driver-class-name: org.postgresql.Driver
 
   jackson:
     date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat

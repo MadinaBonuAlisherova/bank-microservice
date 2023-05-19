@@ -9,4 +9,5 @@ include 'online-banking-core-service'
 include 'core-banking-service'
 include 'Banking-service-module'
 include 'common'
+include 'online-bankingpayment-service'
 
