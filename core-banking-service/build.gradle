@@ -21,8 +21,7 @@ dependencies {
 //    implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation libpacks.postgres
     implementation project(':common')
-//    implementation project(':online-banking-api-gateway')
-//    implementation libpacks.cloud
+    implementation  'org.springframework.kafka:spring-kafka'
     implementation libpacks.unitest
 
 

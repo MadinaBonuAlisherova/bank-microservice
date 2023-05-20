@@ -1,6 +1,7 @@
 package com.javatech.finance.service;
 
 
+import com.javatech.finance.kafka.BankAccountProducer;
 import com.javatech.finance.repository.BankAccountRemoteRepository;
 import com.javatech.finance.repository.BankAccountRepository;
 import com.javatech.finance.repository.UtilityAccountRepository;
@@ -23,6 +24,7 @@ public class AccountService {
     private final BankAccountRemoteRepository bankAccountRemoteRepository;
     private BankAccountMapper bankAccountMapper = new BankAccountMapper();
     private UtilityAccountMapper utilityAccountMapper = new UtilityAccountMapper();
+    private final BankAccountProducer bankAccountProducer;
 
     private final BankAccountRepository bankAccountRepository;
     private final UtilityAccountRepository utilityAccountRepository;
@@ -43,5 +45,10 @@ public class AccountService {
 
     public BankAccount readRemoteBankAccount(String accountNumber) {
         return bankAccountRemoteRepository.getAccount(accountNumber);
+    }
+
+    public BankAccount readKafkaBankAccount(String accountNumber) {
+
+        return bankAccountProducer.send(accountNumber);
     }
 }

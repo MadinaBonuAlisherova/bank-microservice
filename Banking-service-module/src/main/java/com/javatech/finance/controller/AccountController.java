@@ -36,4 +36,9 @@ class AccountController implements AccountControllerInterface {
         return ResponseEntity.ok(accountService.readRemoteBankAccount(accountNumber));
     }
 
+    @GetMapping("/bank-account/{account_number}/kafka")
+    public ResponseEntity<BankAccount> getKafkaBankAccount(@PathVariable("account_number") String accountNumber){
+
+        return ResponseEntity.ok(accountService.readKafkaBankAccount(accountNumber));
+    }
 }

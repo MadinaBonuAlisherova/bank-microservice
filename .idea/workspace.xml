@@ -5,169 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef816cb9-0d95-4b7b-a831-077c27c696bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/config/kafka/BankAccountProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/config/properties/KafkaProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/repository/BankAccountRemoteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/repository/client/BankAccountClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Banking-service-module/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/mapper/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/OnlineBankingUtilityPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/configuration/CustomFeignClientConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/controller/UtilityPaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/model/TransactionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/model/dto/UtilityPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/model/entity/UtilityPaymentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/model/mapper/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/model/mapper/UtilityPaymentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/model/rest/request/UtilityPaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/model/rest/response/AccountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/model/rest/response/UtilityPaymentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/repository/UtilityPaymentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/service/UtilityPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-banking-payment-service/src/main/java/com/javatech/finance/service/rest/BankingCoreRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/config/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/config/properties/KafkaProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/kafka/BankAccountListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/CoreBankingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/BankingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/controller/TransactionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/enums/AccountStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/enums/AccountType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/enums/TransactionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/exceptions/EntityNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/exceptions/EntityNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/exceptions/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/exceptions/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/exceptions/GlobalErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/exceptions/GlobalErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/exceptions/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/exceptions/InsufficientFundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/exceptions/InsufficientFundsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/exceptions/SimpleBankingGlobalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/exceptions/SimpleBankingGlobalException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/dto/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/dto/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/dto/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/dto/UtilityAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/dto/request/FundTransferRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/dto/request/UtilityPaymentRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/dto/response/FundTransferResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/dto/response/UtilityPaymentResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/entity/BankAccountEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/entity/TransactionEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/entity/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/entity/UtilityAccountEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/mapper/BankAccountMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/mapper/BaseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/model/mapper/UtilityAccountMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/repository/BankAccountRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/repository/TransactionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/repository/UtilityAccountRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/service/TransactionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/java/com/javatech/finance/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/controller/AccountControllerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/controller/AccountControllerInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/enums/AccountStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/enums/AccountType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/enums/TransactionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/BankAccountEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/UtilityAccountEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/dto/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/dto/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/dto/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/dto/UtilityAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/entity/BankAccountEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/entity/TransactionEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/entity/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/entity/UtilityAccountEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/mapper/BankAccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/mapper/BankAccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/java/com/javatech/common/model/mapper/UtilityAccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/mapper/UtilityAccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/config/kafka/BankAccountProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/kafka/BankAccountProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-banking-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/CoreBankingServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/CoreBankingServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/controller/AccountController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/controller/TransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/controller/TransactionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/enums/AccountStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/enums/AccountType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/enums/TransactionType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/EntityNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/EntityNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/ErrorResponse$ErrorResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/ErrorResponse$ErrorResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/ErrorResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/ErrorResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/GlobalErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/GlobalErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/InsufficientFundsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/InsufficientFundsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/SimpleBankingGlobalException.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/exceptions/SimpleBankingGlobalException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/UtilityAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/request/FundTransferRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/request/UtilityPaymentRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/response/FundTransferResponse$FundTransferResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/response/FundTransferResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/response/UtilityPaymentResponse$UtilityPaymentResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/dto/response/UtilityPaymentResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/entity/BankAccountEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/entity/TransactionEntity$TransactionEntityBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/entity/TransactionEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/entity/UserEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/entity/UtilityAccountEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/mapper/BankAccountMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/mapper/BaseMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/model/mapper/UtilityAccountMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/repository/BankAccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/repository/BankAccountRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/repository/TransactionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/repository/TransactionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/repository/UtilityAccountRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/repository/UtilityAccountRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/service/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/service/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/service/TransactionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/controller/AccountControllerInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/controller/TransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/controller/TransactionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/enums/AccountStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/enums/AccountStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/enums/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/enums/AccountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/enums/TransactionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/enums/TransactionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/dto/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/dto/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/dto/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/dto/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/dto/UtilityAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/dto/UtilityAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/dto/request/FundTransferRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/dto/request/FundTransferRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/dto/request/UtilityPaymentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/dto/request/UtilityPaymentRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/dto/response/FundTransferResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/dto/response/FundTransferResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/dto/response/UtilityPaymentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/dto/response/UtilityPaymentResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/entity/BankAccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/entity/BankAccountEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/entity/TransactionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/entity/TransactionEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/entity/UtilityAccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/javatech/finance/common/model/entity/UtilityAccountEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/mapper/BankAccountMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/mapper/BaseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/model/mapper/UtilityAccountMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/repository/BankAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/repository/BankAccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/repository/TransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/repository/UtilityAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/repository/UtilityAccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/service/TransactionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/libraries.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online-banking-payment-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-payment-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +91,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/repository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -249,11 +102,11 @@
       <recent name="com.javatech.finance.exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Madinabonu_Alisherov\Downloads\online-banking\Test\core-banking-service\src\main\java\com\javatech\finance" />
       <recent name="C:\Users\Madinabonu_Alisherov\Downloads\online-banking\Test\Banking-service-module\src\main\java\com\javatech\finance\repository" />
       <recent name="C:\Users\Madinabonu_Alisherov\Downloads\online-banking\Test\Banking-service-module\src\main\resources" />
       <recent name="C:\Users\Madinabonu_Alisherov\Downloads\online-banking\online-banking\common\src\main\java\java\com\javatech\common\model\dto" />
       <recent name="C:\Users\Madinabonu_Alisherov\Downloads\online-banking\online-banking\common\src\main\java\java\com\javatech\common\model\entity" />
-      <recent name="C:\Users\Madinabonu_Alisherov\Downloads\online-banking\online-banking\common\src\main\java\java\com\javatech\common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Madinabonu_Alisherov\Downloads\online-banking\online-banking\core-banking-service" />
@@ -392,6 +245,14 @@
       <option name="presentableId" value="Default" />
       <updated>1683306039034</updated>
     </task>
+    <task id="LOCAL-00001" summary="- FeignClient impl and Kafka topic impl&#10;- common lib added for 2 services&#10;- docker file and configuration added">
+      <created>1684476126345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684476126346</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,5 +266,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- FeignClient impl and Kafka topic impl&#10;- common lib added for 2 services&#10;- docker file and configuration added" />
+    <option name="LAST_COMMIT_MESSAGE" value="- FeignClient impl and Kafka topic impl&#10;- common lib added for 2 services&#10;- docker file and configuration added" />
   </component>
 </project>
