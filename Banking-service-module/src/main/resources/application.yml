@@ -3,29 +3,11 @@ server:
 spring:
   application:
     name: banking-service-module
-  jpa:
-    database: POSTGRESQL
-    show-sql: true
-    generate-ddl: true
-  datasource:
-    url: jdbc:postgresql://${POSTGRES:localhost}:5436/postgres
-    username: postgres
-    password: postgres
-    driver-class-name: org.postgresql.Driver
-  jackson:
-    date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
-  kafka:
-    bootstrap-servers: localhost:9092,localhost:9093,localhost:9094
-    consumer:
-      group-id: banking-service-module
-      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
-      properties:
-        spring.deserializer.value.delegate.class: org.apache.kafka.common.serialization.StringDeserializer
-        spring.json.use.type.headers: false
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  config:
+    import: optional:configserver:http://${CONFIG_URL:localhost}:8888
+  cloud:  #if cant conntec to config server, it will fail, but to just stop application use this
+    config:
+      fail-fast: true
 kafka:
   topics:
     bank-account-topic:

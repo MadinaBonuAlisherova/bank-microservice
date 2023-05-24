@@ -3,12 +3,14 @@ package com.javatech.finance.config;
 import com.javatech.finance.common.model.dto.BankAccount;
 import com.javatech.finance.config.properties.KafkaProperties;
 import lombok.RequiredArgsConstructor;
+import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;
+import org.springframework.kafka.core.KafkaAdmin;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.listener.ConcurrentMessageListenerContainer;
@@ -30,6 +32,12 @@ public class KafkaConfig {
     private final GenericWebApplicationContext genericWebApplicationContext;
     private final KafkaProperties kafkaProperties;
 
+    //spring cloud config server, spring cloud eureka, spring cloud gateway
+
+    @Bean
+    public AdminClient kafkaAdminClient(KafkaAdmin admin) {
+        return AdminClient.create(admin.getConfigurationProperties());
+    }
 
     @Bean
     public NewTopic bankAccountTopic() {

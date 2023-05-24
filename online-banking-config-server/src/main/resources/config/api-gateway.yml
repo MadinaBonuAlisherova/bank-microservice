@@ -1,0 +1,21 @@
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+spring:
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      discovery.locator:
+        enabled: true
+        lowerCaseServiceId: true
+      routes:
+        - id: banking-service-module
+          uri: lb://banking-service-module
+          predicates:
+            - Path=/**
+        - id: core-banking-service
+          uri: lb://core-banking-service
+          predicates:
+            - Path=/**

@@ -1,5 +1,3 @@
-
-
 group = 'com.madinabonu'
 version = '0.0.1-SNAPSHOT'
 
@@ -15,20 +13,10 @@ repositories {
 }
 
 dependencies {
-    implementation libpacks.postgres
-//    implementation libpacks.cloud
+    implementation libpacks.configClient
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
     implementation libpacks.unitest
-    implementation libpacks.oauth
-
-    //SPRING CLOUD CONFIG
-    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
-
-    runtimeOnly 'org.postgresql:postgresql'
-
-
-
-
-
 }
 
 tasks.named('test') {

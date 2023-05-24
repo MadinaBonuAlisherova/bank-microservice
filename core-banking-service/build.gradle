@@ -22,6 +22,8 @@ dependencies {
     implementation libpacks.postgres
     implementation project(':common')
     implementation  'org.springframework.kafka:spring-kafka'
+    implementation libpacks.configClient
+    implementation  'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     implementation libpacks.unitest
 
 

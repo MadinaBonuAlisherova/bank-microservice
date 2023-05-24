@@ -25,8 +25,11 @@ dependencies {
 //    implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation libpacks.postgres
     implementation project(':common')
-    implementation  'org.springframework.cloud:spring-cloud-starter-openfeign'
-    implementation  'org.springframework.kafka:spring-kafka'
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    implementation 'org.springframework.kafka:spring-kafka'
+    implementation libpacks.configClient
+    implementation  'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
 
 //    implementation project(':online-banking-api-gateway')
 //    implementation libpacks.cloud

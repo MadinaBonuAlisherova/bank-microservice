@@ -5,22 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef816cb9-0d95-4b7b-a831-077c27c696bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/config/properties/KafkaProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/kafka/BankAccountListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-banking-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-banking-config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-banking-config-server/src/main/resources/config/api-gateway.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-banking-config-server/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-banking-config-server/src/main/resources/config/core-banking-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-banking-config-server/src/main/resources/config/eureka-server.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-banking-service-registery/src/main/java/com/javatach/finance/OnlineBankingEuverikaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/online-banking-service-registery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/config/kafka/BankAccountProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/kafka/BankAccountProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking-service-module/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/BankingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/BankingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/config/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/java/com/javatech/finance/config/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banking-service-module/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Banking-service-module/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-banking-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/CoreBankingServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/classes/java/main/com/javatech/finance/CoreBankingServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-banking-service/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-banking-service/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/CoreBankingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/java/com/javatech/finance/CoreBankingServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core-banking-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/core-banking-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/libraries.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-api-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-api-gateway/build/classes/java/main/com/javatech/finance/OnlineBankingApiGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-api-gateway/build/classes/java/main/com/javatech/finance/OnlineBankingApiGatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-api-gateway/build/classes/java/main/com/javatech/finance/configuration/GatewayConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-api-gateway/build/classes/java/main/com/javatech/finance/configuration/GatewayConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-api-gateway/build/classes/java/main/com/javatech/finance/configuration/security/SecurityConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-api-gateway/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-api-gateway/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-api-gateway/src/main/java/com/javatech/finance/OnlineBankingApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-api-gateway/src/main/java/com/javatech/finance/OnlineBankingApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-api-gateway/src/main/java/com/javatech/finance/configuration/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-api-gateway/src/main/java/com/javatech/finance/configuration/security/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-config-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-config-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-config-server/src/main/java/com/javatech/finance/InternetBankingConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-config-server/src/main/java/com/javatech/finance/InternetBankingConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-banking-service-registery/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/online-banking-service-registery/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,35 +144,9 @@
       <recent name="java.com.javatech.common.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankingServiceApplication">
+  <component name="RunManager" selected="Application.OnlineBankingApiGatewayApplication">
     <configuration name="BankingServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javatech.finance.BankingServiceApplication" />
-      <module name="online-banking.Banking-service-module.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javatech.finance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoreBankingServiceApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.com.javatech.finance.CoreBankingServiceApplication" />
-      <module name="online-banking.Banking-service-module.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java.com.javatech.finance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoreBankingServiceApplication (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javatech.finance.CoreBankingServiceApplication" />
       <module name="online-banking.Banking-service-module.main" />
       <extension name="coverage">
         <pattern>
@@ -164,6 +164,45 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.javatech.finance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InternetBankingConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatech.finance.InternetBankingConfigServerApplication" />
+      <module name="online-banking.online-banking-config-server.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatech.finance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineBankingApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatech.finance.OnlineBankingApiGatewayApplication" />
+      <module name="online-banking.online-banking-api-gateway.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatech.finance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineBankingEuverikaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javatach.finance.OnlineBankingEuverikaServerApplication" />
+      <module name="online-banking.online-banking-service-registery.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javatach.finance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,20 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Application.OnlineBankingApiGatewayApplication" />
         <item itemvalue="Application.BankingServiceApplication" />
-        <item itemvalue="Application.CoreBankingServiceApplication (2)" />
-        <item itemvalue="Application.CoreBankingServiceApplication (1)" />
+        <item itemvalue="Application.OnlineBankingEuverikaServerApplication" />
+        <item itemvalue="Application.InternetBankingConfigServerApplication" />
         <item itemvalue="Application.CoreBankingServiceApplication" />
       </list>
     </recent_temporary>
@@ -252,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684476126346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Kafka consumer and producer update">
+      <created>1684586781055</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684586781055</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +307,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- FeignClient impl and Kafka topic impl&#10;- common lib added for 2 services&#10;- docker file and configuration added" />
-    <option name="LAST_COMMIT_MESSAGE" value="- FeignClient impl and Kafka topic impl&#10;- common lib added for 2 services&#10;- docker file and configuration added" />
+    <MESSAGE value="Kafka consumer and producer update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kafka consumer and producer update" />
   </component>
 </project>
